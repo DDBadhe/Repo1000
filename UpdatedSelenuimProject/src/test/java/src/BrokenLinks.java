@@ -8,12 +8,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class BrokenLinks {
 	static int Count = 0;
 	static int ValidUrl = 0;
 	static int BrokenUrl = 0;
-	public static void main(String[] args) {
+
+	@Test
+	public void test_1() {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\acer\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();

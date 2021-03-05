@@ -7,9 +7,11 @@ import java.util.Properties;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class ReadDataFromConfig {
-	public static void main(String[] args) throws InterruptedException {
+	@Test
+	public void test_1() throws InterruptedException {
 		Properties properties = new Properties();
 		try {
 			

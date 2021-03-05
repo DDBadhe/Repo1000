@@ -14,16 +14,18 @@ import org.testng.annotations.Test;
 		public void test_1() throws InterruptedException {
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\acer\\Downloads\\chromedriver_win32\\chromedriver.exe");
 			WebDriver driver = new ChromeDriver();
-			driver.get("https://www.jquery-az.com/boots/demo.php?ex=63.0_2");
-			Reporter.log("The browser window is opened");
 			driver.manage().window().maximize();
 			Reporter.log("The browser window is maximized");
+			driver.get("https://www.jquery-az.com/boots/demo.php?ex=63.0_2");
+			Reporter.log("The browser window is opened");
+
 			driver.findElement(By.className("multiselect-selected-text")).click();
 			Reporter.log("clicked for sign in");
 			Thread.sleep(5000);
 			Reporter.log("slept for 5 sec");
 			String at = driver.getTitle();
 			System.out.println(at);
+			Thread.sleep(4000);
 			driver.close();
 			Reporter.log("browser is closed");
 			
