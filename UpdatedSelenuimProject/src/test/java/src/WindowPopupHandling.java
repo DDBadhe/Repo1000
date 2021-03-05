@@ -17,7 +17,7 @@ public class WindowPopupHandling {
 		driver.get("http://demo.guru99.com/popup.php");		
 		Thread.sleep(5000);
 
-		driver.findElement(By.xpath("//*[contains(@href,'popup.php')]")).click();;
+		driver.findElement(By.xpath("//*[contains(@href,'popup.php')]")).click();
 		String Mainwindow = driver.getWindowHandle();
 		Set<String> s1 = driver.getWindowHandles();
 		
