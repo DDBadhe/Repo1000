@@ -6,8 +6,8 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "E:\\WORKSPACE\\UpdatedClientAssignment\\src\\test\\resources\\Features\\Exchange_2_1.feature",
-glue = {"RateAPI_2_1"})
+@CucumberOptions(features = "src/test/resources/Features", glue = {"StepDefinitions"})
 public class TestRunner {
 
 }
+

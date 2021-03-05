@@ -17,7 +17,6 @@ import net.bytebuddy.implementation.bytecode.StackSize;
 public class ExtentReport {
 
 	public static void main(String[] args) {
-		System.out.println("This is demo test");
 		ExtentHtmlReporter reporter = new ExtentHtmlReporter("./Reports/report1.html") ;
 		ExtentReports extent = new ExtentReports();
 		extent.attachReporter(reporter);

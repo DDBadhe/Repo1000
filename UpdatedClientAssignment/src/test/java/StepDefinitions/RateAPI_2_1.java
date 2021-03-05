@@ -1,24 +1,20 @@
 package StepDefinitions;
 
-
-
-import org.testng.Assert;
-
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import junit.framework.Assert;
 
 public class RateAPI_2_1 {
 	
 	Response response = null;
-	String uri="https://api.ratesapi.io";
 
 	@Given("API for foreign exchange")
 	public void api_for_foreign_exchange() {
-		
-		RestAssured.baseURI=uri;
+		System.out.println("navigating to api");
+		response = RestAssured.get("https://ratesapi.io/documentation");
 	    throw new io.cucumber.java.PendingException();
 	}
 	
@@ -26,7 +22,7 @@ public class RateAPI_2_1 {
 
 	@When("posted with correct information")
 	public void posted_with_correct_information() {
-		  response = RestAssured.get("/api/latest");
+		  
 	    throw new io.cucumber.java.PendingException();
 	}
 

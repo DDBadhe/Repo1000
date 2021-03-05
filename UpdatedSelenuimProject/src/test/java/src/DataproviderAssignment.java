@@ -48,9 +48,9 @@ public class DataproviderAssignment {
 	    public Object[][] getDataFromDataprovider(){
 	    return new Object[][] 
 	    	{
-	            { "Guru99", "India" },
-	            { "Krishna", "UK" },
-	            { "Bhupesh", "USA" }
+	            { "ABC", "India" },
+	            { "DEF", "UK" },
+	            { "XYZ", "USA" }
 	        };
 
 	    }
