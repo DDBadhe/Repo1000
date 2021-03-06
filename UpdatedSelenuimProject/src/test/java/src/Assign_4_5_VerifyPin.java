@@ -26,23 +26,23 @@ public class Assign_4_5_VerifyPin {
 		String pin2 = null;
 
 		for (int i=0; i<list.size(); i++) {
-			if (list.get(i).getText().contains("Adambakkam")) {
+			if (list.get(i).getText().contains("Annanagar Western Extn")) {
 				System.out.println(list.get(i).getText());
 
 				String[] l1 = list.get(i).getText().split("  ");
-
-				pin1 = l1[2];
+				
+				pin1 = l1[l1.length-1];
 				break;
 
 			}
 		}
 		for (int i=0; i<list.size(); i++) {
 
-			if (list.get(i).getText().contains("Avadi")) {
+			if (list.get(i).getText().contains("Central Institute Of Tech")) {
 				System.out.println(list.get(i).getText());
 				String[] l2 = list.get(i).getText().split("  ");
 
-				pin2 = l2[2];
+				pin2 = l2[l2.length-1];
 				break;
 
 

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-05T19:26:07 IST" name="Default suite" finished-at="2021-03-05T19:26:22 IST" duration-ms="15221">
+  <suite started-at="2021-03-06T16:43:41 IST" name="Default suite" finished-at="2021-03-06T16:44:09 IST" duration-ms="28100">
     <groups>
     </groups>
-    <test started-at="2021-03-05T19:26:07 IST" name="Default test" finished-at="2021-03-05T19:26:22 IST" duration-ms="15221">
+    <test started-at="2021-03-06T16:43:41 IST" name="Default test" finished-at="2021-03-06T16:44:09 IST" duration-ms="28100">
       <class name="src.Assign_4_5_VerifyPin">
-        <test-method signature="name()[pri:0, instance:src.Assign_4_5_VerifyPin@4bb33f74]" started-at="2021-03-05T19:26:07 IST" name="name" finished-at="2021-03-05T19:26:22 IST" duration-ms="15148" status="PASS">
+        <test-method signature="name()[pri:0, instance:src.Assign_4_5_VerifyPin@4bb33f74]" started-at="2021-03-06T16:43:41 IST" name="name" finished-at="2021-03-06T16:44:09 IST" duration-ms="28034" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- name -->

@@ -52,6 +52,6 @@ public class DataproviderAssignment {
 	            { "DEF", "UK" },
 	            { "XYZ", "USA" }
 	        };
-
+ 
 	    }
 }
