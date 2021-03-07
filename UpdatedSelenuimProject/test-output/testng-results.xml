@@ -1,17 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-06T16:43:41 IST" name="Default suite" finished-at="2021-03-06T16:44:09 IST" duration-ms="28100">
+  <suite started-at="2021-03-07T16:25:21 IST" name="Default suite" finished-at="2021-03-07T16:25:40 IST" duration-ms="19407">
     <groups>
     </groups>
-    <test started-at="2021-03-06T16:43:41 IST" name="Default test" finished-at="2021-03-06T16:44:09 IST" duration-ms="28100">
-      <class name="src.Assign_4_5_VerifyPin">
-        <test-method signature="name()[pri:0, instance:src.Assign_4_5_VerifyPin@4bb33f74]" started-at="2021-03-06T16:43:41 IST" name="name" finished-at="2021-03-06T16:44:09 IST" duration-ms="28034" status="PASS">
+    <test started-at="2021-03-07T16:25:21 IST" name="Default test" finished-at="2021-03-07T16:25:40 IST" duration-ms="19407">
+      <class name="src.DataproviderAssignment">
+        <test-method is-config="true" signature="setup()[pri:0, instance:src.DataproviderAssignment@5fbdfdcf]" started-at="2021-03-07T16:25:21 IST" name="setup" finished-at="2021-03-07T16:25:31 IST" duration-ms="9646" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- name -->
-      </class> <!-- src.Assign_4_5_VerifyPin -->
+        </test-method> <!-- setup -->
+        <test-method signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:src.DataproviderAssignment@5fbdfdcf]" started-at="2021-03-07T16:25:31 IST" name="testMethod" data-provider="SearchProvider" finished-at="2021-03-07T16:25:34 IST" duration-ms="3281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:src.DataproviderAssignment@5fbdfdcf]" started-at="2021-03-07T16:25:34 IST" name="testMethod" data-provider="SearchProvider" finished-at="2021-03-07T16:25:37 IST" duration-ms="3171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DEF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:src.DataproviderAssignment@5fbdfdcf]" started-at="2021-03-07T16:25:37 IST" name="testMethod" data-provider="SearchProvider" finished-at="2021-03-07T16:25:40 IST" duration-ms="3234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[XYZ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- src.DataproviderAssignment -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

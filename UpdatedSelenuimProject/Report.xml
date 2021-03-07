@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="src.Assign_4_4_ReadExcel" />
+			<class name="src.Assign_4_5_VerifyPin" />
+			<class name="src.Assignment_4_1" />
+			<class name="src.Assignment_4_2" />
+			<class name="src.Assignment_4_3_webScreenShot" />
+			<class name="src.BootstrapDropdown" />
+			<class name="src.BrokenLinks" />
+			<class name="src.DataproviderAssignment" />
+			<class name="src.DragAndDropOperation"/>
+			<class name="src.ExtentReport"/>
+			<class name="src.GoogleSearchWebPage"/>
+			<class name="src.ReadDataFromConfig"/>
+			<class name="src.ScrollingWebPage"/>
+			<class name="src.SendTextWithoutSendKey"/>
+			<class name="src.SettingSizeOfBrowserWindow"/>
+			<class name="src.WindowPopupHandling"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

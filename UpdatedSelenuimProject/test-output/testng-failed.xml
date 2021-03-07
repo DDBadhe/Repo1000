@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="src.Assignment_4_3_webScreenShot">
+      <class name="src.DataproviderAssignment">
         <methods>
-          <include name="takeSnapShot"/>
+          <include name="setup"/>
+          <include name="testMethod" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- src.Assignment_4_3_webScreenShot -->
+      </class> <!-- src.DataproviderAssignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

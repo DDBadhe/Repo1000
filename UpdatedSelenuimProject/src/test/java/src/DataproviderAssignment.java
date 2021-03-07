@@ -27,7 +27,7 @@ public class DataproviderAssignment {
 
 	    @Test(dataProvider="SearchProvider")
 	    public void testMethod(String author,String searchKey) throws InterruptedException{
-	    {
+	 
 	        WebElement searchText = driver.findElement(By.name("q"));
 	        searchText.sendKeys(searchKey);
 	        System.out.println("Welcome ->"+author+" Your search key is->"+searchKey);
@@ -37,12 +37,9 @@ public class DataproviderAssignment {
 	        searchText.clear();
 	        //Verify if the value in google search box is correct
 	        Assert.assertTrue(testValue.equalsIgnoreCase(searchKey));
+	  
 	    }
-	    }
-	    /**
-	     * @return Object[][] where first column contains 'author'
-	     * and second column contains 'searchKey'
-	     */
+	    
 
 	    @DataProvider(name="SearchProvider")
 	    public Object[][] getDataFromDataprovider(){

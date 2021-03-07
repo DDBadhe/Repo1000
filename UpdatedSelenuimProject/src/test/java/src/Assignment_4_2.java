@@ -26,6 +26,9 @@ public class Assignment_4_2 {
 		driver.findElement(By.xpath("//*[@id=\"search_type\"]/option[3]")).click();
 		
 		Thread.sleep(4000);
+		
+		driver.close();
+		driver.quit();
 	
 	}
 }
